@@ -10,8 +10,6 @@ Removal of revisions is done using the ClassicPress function to ensure they are 
 
 This plugin is multisite compatible, with options set on a per site basis.
 
-== Installation ==
-
 # Installation Instructions
 
  * Download the plugin from [GitHub](https://github.com/azurecurve/azrcrv-remove-revisions/releases/latest/).
@@ -19,11 +17,9 @@ This plugin is multisite compatible, with options set on a per site basis.
  * Activate the plugin.
  * Configure relevant settings via the configuration page in the admin control panel (azurecurve menu).
 
-== Other Notes ==
-
 # About azurecurve
 
-**azurecurve** was one of the first plugin developers to start developing for Classicpress; all plugins are available from [azurecurve Development](https://development.azurecurve.co.uk/) and are integrated with the [Update Manager plugin](https://codepotent.com/classicpress/plugins/update-manager/) by [CodePotent](https://codepotent.com/) for fully integrated, no hassle, updates.
+**azurecurve** was one of the first plugin developers to start developing for Classicpress; all plugins are available from [azurecurve Development](https://development.azurecurve.co.uk/) and are integrated with the [Update Manager plugin](https://codepotent.com/classicpress/plugins/update-manager/) for fully integrated, no hassle, updates.
 
 Some of the top plugins available from **azurecurve** are:
 * [Add Open Graph Tags](https://development.azurecurve.co.uk/classicpress-plugins/add-open-graph-tags/)
