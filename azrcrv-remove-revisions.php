@@ -545,8 +545,6 @@ function execute_cron(){
 	
 	$prepared_sql = $wpdb->prepare($sql, esc_sql($options['months-old']));
 	
-	update_option('azrcrv-rr-3', $prepared_sql);
-	
 	$post_ids = $wpdb->get_col($prepared_sql);
 	if ($post_ids) {
 		foreach ($post_ids as $post_id){
