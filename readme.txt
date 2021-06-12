@@ -1,3 +1,26 @@
+=== Remove Revisions ===
+
+Description:	Remove old post revisions over the specified months old.
+Version:		1.0.0
+Tags:			revisions,maintenance
+Author:			azurecurve
+Author URI:		https://development.azurecurve.co.uk/
+Contributors:	azurecurve
+Plugin URI:		https://development.azurecurve.co.uk/classicpress-plugins/remove-revisions/
+Download link:	https://github.com/azurecurve/azrcrv-remove-revisions/releases/download/v1.0.0/azrcrv-remove-revisions.zip
+Donate link:	https://development.azurecurve.co.uk/support-development/
+Requires PHP:	5.6
+Requires:		1.0.0
+Tested:			4.9.99
+Text Domain:	code
+Domain Path:	/languages
+License: 		GPLv2 or later
+License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
+
+Remove old post revisions over the specified months.
+
+== Description ==
+
 # Description
 
 While revisions can be disabled or limited in number with settings in the wp-config file, there is no way to allow for the deletion of revisions over a certain ago. That is what this plugin allows you to do.
@@ -18,6 +41,23 @@ This plugin is multisite compatible, with options set on a per site basis.
  * Upload the entire zip file using the Plugins upload function in your ClassicPress admin panel.
  * Activate the plugin.
  * Configure relevant settings via the configuration page in the admin control panel (azurecurve menu).
+
+== Frequently Asked Questions ==
+
+# Frequently Asked Questions
+
+### Can I translate this plugin?
+Yes, the .pot file is in the plugins languages folder and can also be downloaded from the plugin page on https://development.azurecurve.co.uk; if you do translate this plugin, please sent the .po and .mo files to translations@azurecurve.co.uk for inclusion in the next version (full credit will be given).
+
+### Is this plugin compatible with both WordPress and ClassicPress?
+This plugin is developed for ClassicPress, but will likely work on WordPress.
+
+== Changelog ==
+
+# Changelog
+
+### [Version 1.0.0](https://github.com/azurecurve/azrcrv-remove-revisions/releases/v1.0.0)
+ * Initial release.
 
 == Other Notes ==
 
