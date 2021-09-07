@@ -406,8 +406,8 @@ function display_options(){
 								
 							</table>';
 							
-			$tab_1_label = esc_html__('Post Types', 'toggle-showhide');
-			$tab_2_label = esc_html__('Cron', 'toggle-showhide');
+			$tab_1_label = esc_html__('Post Types', 'remove-revisions');
+			$tab_2_label = esc_html__('Cron', 'remove-revisions');
 		?>
 		<form method="post" action="admin-post.php">
 			<fieldset>
@@ -438,8 +438,8 @@ function display_options(){
 				</div>
 			</fieldset>
 			
-			<input type="submit" name="btn_save" value="<?php esc_html_e('Save Settings', 'toggle-showhide'); ?>" class="button-primary"/>
-			<input type="submit" name="btn_save_remove" value="<?php esc_html_e('Save Settings & Remove Revisions', 'toggle-showhide'); ?>" class="button-secondary"/>
+			<input type="submit" name="btn_save" value="<?php esc_html_e('Save Settings', 'remove-revisions'); ?>" class="button-primary"/>
+			<input type="submit" name="btn_save_remove" value="<?php esc_html_e('Save Settings & Remove Revisions', 'remove-revisions'); ?>" class="button-secondary"/>
 		</form>
 	</div>
 	<?php
