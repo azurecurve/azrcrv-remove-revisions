@@ -222,7 +222,7 @@ function add_plugin_action_link($links, $file){
  *
  */
 function custom_image_path($path){
-    if (strpos($path, 'azrcrv-rr') !== false){
+    if (strpos($path, 'azrcrv-remove-revisions') !== false){
         $path = plugin_dir_path(__FILE__).'assets/pluginimages';
     }
     return $path;
@@ -235,7 +235,7 @@ function custom_image_path($path){
  *
  */
 function custom_image_url($url){
-    if (strpos($url, 'azrcrv-rr') !== false){
+    if (strpos($url, 'azrcrv-remove-revisions') !== false){
         $url = plugin_dir_url(__FILE__).'assets/pluginimages';
     }
     return $url;
