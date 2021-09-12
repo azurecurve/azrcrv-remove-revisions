@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: Remove Revisions
  * Description: Remove old post revisions over the specified months old.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/remove-revisions/
