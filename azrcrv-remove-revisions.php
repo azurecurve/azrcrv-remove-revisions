@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: Remove Revisions
  * Description: Remove old post revisions over the specified months old.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/remove-revisions/
@@ -61,7 +61,7 @@ add_filter('codepotent_update_manager_image_path', __NAMESPACE__.'\\custom_image
 add_filter('codepotent_update_manager_image_url', __NAMESPACE__.'\\custom_image_url');
 
 /**
- * Create Cron hourly check for widget announcements.
+ * Create Cron hourly check for removing revisions.
  *
  * @since 1.0.0
  *
@@ -77,7 +77,7 @@ function create_cron(){
 }
 
 /**
- * Clear Cron hourly check for widget announcements.
+ * Clear Cron hourly check for removing revisions.
  *
  * @since 1.0.0
  *
@@ -392,7 +392,7 @@ function display_options(){
 								<tr>
 									<th scope="row">
 									
-										'.esc_html__('Time', 'from-twitter').'
+										'.esc_html__('Time', 'remove-revisions').'
 										
 									</th>
 									

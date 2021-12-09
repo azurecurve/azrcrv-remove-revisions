@@ -1,13 +1,13 @@
 === Remove Revisions ===
 
 Description:	Remove old post revisions over the specified months old.
-Version:		1.0.3
+Version:		1.0.4
 Tags:			revisions,maintenance
 Author:			azurecurve
 Author URI:		https://development.azurecurve.co.uk/
 Contributors:	azurecurve
 Plugin URI:		https://development.azurecurve.co.uk/classicpress-plugins/remove-revisions/
-Download link:	https://github.com/azurecurve/azrcrv-remove-revisions/releases/download/v1.0.3/azrcrv-remove-revisions.zip
+Download link:	https://github.com/azurecurve/azrcrv-remove-revisions/releases/download/v1.0.4/azrcrv-remove-revisions.zip
 Donate link:	https://development.azurecurve.co.uk/support-development/
 Requires PHP:	5.6
 Requires:		1.0.0
@@ -37,7 +37,7 @@ This plugin is multisite compatible, with options set on a per site basis.
 
 # Installation Instructions
 
- * Download the plugin from [GitHub](https://github.com/azurecurve/azrcrv-remove-revisions/releases/latest/).
+ * Download the latest release of the plugin from [GitHub](https://github.com/azurecurve/azrcrv-remove-revisions/releases/latest/).
  * Upload the entire zip file using the Plugins upload function in your ClassicPress admin panel.
  * Activate the plugin.
  * Configure relevant settings via the configuration page in the admin control panel (azurecurve menu).
@@ -55,6 +55,10 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 == Changelog ==
 
 # Changelog
+
+### [Version 1.0.4](https://github.com/azurecurve/azrcrv-remove-revisions/releases/v1.0.4)
+ * Update azurecurve menu.
+ * Update readme files.
 
 ### [Version 1.0.3](https://github.com/azurecurve/azrcrv-remove-revisions/releases/v1.0.3)
  * Fix bug with plugin icon and banner not displaying.
@@ -74,14 +78,14 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 
 **azurecurve** was one of the first plugin developers to start developing for Classicpress; all plugins are available from [azurecurve Development](https://development.azurecurve.co.uk/) and are integrated with the [Update Manager plugin](https://codepotent.com/classicpress/plugins/update-manager/) for fully integrated, no hassle, updates.
 
-Some of the top plugins available from **azurecurve** are:
-* [Add Open Graph Tags](https://development.azurecurve.co.uk/classicpress-plugins/add-open-graph-tags/)
-* [Add Twitter Cards](https://development.azurecurve.co.uk/classicpress-plugins/add-twitter-cards/)
-* [Breadcrumbs](https://development.azurecurve.co.uk/classicpress-plugins/breadcrumbs/)
-* [Disable FLoC](https://development.azurecurve.co.uk/classicpress-plugins/disable-floc/)
-* [Series Index](https://development.azurecurve.co.uk/classicpress-plugins/series-index/)
-* [SMTP](https://development.azurecurve.co.uk/classicpress-plugins/smtp/)
-* [To Twitter](https://development.azurecurve.co.uk/classicpress-plugins/to-twitter/)
-* [Theme Switcher](https://development.azurecurve.co.uk/classicpress-plugins/theme-switcher/)
-* [Toggle Show/Hide](https://development.azurecurve.co.uk/classicpress-plugins/toggle-showhide/)
-* [Update Admin Menu](https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/)
+Some of the other plugins available from **azurecurve** are:
+ * Conditional Links - [details](https://development.azurecurve.co.uk/classicpress-plugins/conditional-links/) / [download](https://github.com/azurecurve/azrcrv-conditional-links/releases/latest/)
+ * Estimated Read Time - [details](https://development.azurecurve.co.uk/classicpress-plugins/estimated-read-time/) / [download](https://github.com/azurecurve/azrcrv-estimated-read-time/releases/latest/)
+ * Events - [details](https://development.azurecurve.co.uk/classicpress-plugins/events/) / [download](https://github.com/azurecurve/azrcrv-events/releases/latest/)
+ * Floating Featured Image - [details](https://development.azurecurve.co.uk/classicpress-plugins/floating-featured-image/) / [download](https://github.com/azurecurve/azrcrv-floating-featured-image/releases/latest/)
+ * Page Index - [details](https://development.azurecurve.co.uk/classicpress-plugins/page-index/) / [download](https://github.com/azurecurve/azrcrv-page-index/releases/latest/)
+ * Remove Revisions - [details](https://development.azurecurve.co.uk/classicpress-plugins/remove-revisions/) / [download](https://github.com/azurecurve/azrcrv-remove-revisions/releases/latest/)
+ * Snippets - [details](https://development.azurecurve.co.uk/classicpress-plugins/snippets/) / [download](https://github.com/azurecurve/azrcrv-snippets/releases/latest/)
+ * Theme Switcher - [details](https://development.azurecurve.co.uk/classicpress-plugins/theme-switcher/) / [download](https://github.com/azurecurve/azrcrv-theme-switcher/releases/latest/)
+ * Timelines - [details](https://development.azurecurve.co.uk/classicpress-plugins/timelines/) / [download](https://github.com/azurecurve/azrcrv-timelines/releases/latest/)
+ * URL Shortener - [details](https://development.azurecurve.co.uk/classicpress-plugins/url-shortener/) / [download](https://github.com/azurecurve/azrcrv-url-shortener/releases/latest/)
