@@ -73,7 +73,7 @@ function execute_cron() {
 				parent.post_type IN (' . $in_post_types . ') 
 			AND 
 				post.post_date <= (now() - interval %2$d %3$s)';
-update_option( 'azrcrv-rr-x2', $sql );	
+
 	// phpcs:ignore.preparingsql
 	$prepared_sql = $wpdb->prepare( $sql, esc_sql( $wpdb->prefix . 'posts' ), esc_sql( $options['months-old'] ), esc_sql( $options['range-type'] ) );
 

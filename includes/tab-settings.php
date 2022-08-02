@@ -60,30 +60,36 @@ $tab_settings       = '
 
 
 	$posttypes = get_post_types( array(), 'objects' );
-foreach ( $posttypes as $posttype ) {
-	if ( isset( $options['post-types'][ $posttype->name ] ) ) {
-		$current_setting = $options['post-types'][ $posttype->name ];
-	} else {
-		$current_setting = 0;
-	}
-	$tab_settings .= '<tr>
-						<th scope="row">
+	foreach ( $posttypes as $posttype ) {
+		
+		if ( $posttype->name != 'revision' ) {
+		
+			if ( isset( $options['post-types'][ $posttype->name ] ) ) {
+				$current_setting = $options['post-types'][ $posttype->name ];
+			} else {
+				$current_setting = 0;
+			}
+			
+			$tab_settings .= '<tr>
+								<th scope="row">
+									
+										&nbsp;
+									
+								</th>
 							
-								&nbsp;
-							
-						</th>
-					
-						<td>
-						
-							<input name="post_types[' . $posttype->name . ']" type="checkbox" id="post_types[' . $posttype->name . ']" value="1" ' . checked( '1', $current_setting, false ) . ' />
-							<label for="post_types[' . $posttype->name . ']">
-								' . $posttype->labels->name . '
-							</label>
-						
-						</td>
-	
-					</tr>';
+								<td>
+								
+									<input name="post_types[' . $posttype->name . ']" type="checkbox" id="post_types[' . $posttype->name . ']" value="1" ' . checked( '1', $current_setting, false ) . ' />
+									<label for="post_types[' . $posttype->name . ']">
+										' . $posttype->labels->name . '
+									</label>
+								
+								</td>
+			
+							</tr>';
 
-}
+		}
+	
+	}
 
 $tab_settings .= '</table>';
