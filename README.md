@@ -1,5 +1,5 @@
 # [Remove Revisions](https://development.azurecurve.co.uk/classicpress-plugins/remove-revisions/)
-![Plugin Banner](/assets/images/banner-1544x500.png)
+![Plugin Banner](/assets/pluginimages/banner-1544x500.png)
 
 # Description
 

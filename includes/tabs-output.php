@@ -110,9 +110,8 @@ namespace azurecurve\RemoveRevisions;
 ?>
 <div class='azrcrv-donate'>
 	<?php
-		esc_html_e( 'Support', 'azrcrv-rr' );
+		printf( esc_html__( 'Support %s', 'azrcrv-rr' ), esc_html( DEVELOPER_NAME ) );
 	?>
-	azurecurve | Development
 	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 		<input type="hidden" name="cmd" value="_s-xclick">
 		<input type="hidden" name="hosted_button_id" value="MCJQN9SJZYLWJ">
