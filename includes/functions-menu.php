@@ -20,7 +20,7 @@ function add_plugin_action_link( $links, $file ) {
 	$this_plugin = PLUGIN_SLUG . '/' . PLUGIN_SLUG . '.php';
 
 	if ( $file == $this_plugin ) {
-		$settings_link = '<a href="' . esc_url_raw( admin_url( 'admin.php?page=' . PLUGIN_HYPHEN ) ) . '"><img src="' . esc_url_raw( plugins_url( '../assets/images/logo.svg', __FILE__ ) ) . '" style="padding-top: 2px; margin-right: -5px; height: 16px; width: 16px;" alt="azurecurve" />' . esc_html__( 'Settings', 'azrcrv-rr' ) . '</a>';
+		$settings_link = '<a href="' . esc_url_raw( admin_url( 'admin.php?page=' . PLUGIN_HYPHEN ) ) . '"><img src="' . esc_url_raw( plugins_url( '../assets/images/logo.svg', __FILE__ ) ) . '" style="padding-top: 2px; margin-right: -5px; height: 16px; width: 16px;" alt="' . DEVELOPER_NAME . '" />' . esc_html__( 'Settings', 'azrcrv-rr' ) . '</a>';
 		array_unshift( $links, $settings_link );
 	}
 

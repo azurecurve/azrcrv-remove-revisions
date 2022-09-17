@@ -1,13 +1,13 @@
 === Remove Revisions ===
 
 Description:	Remove old post revisions over the specified months old.
-Version:		1.2.1
+Version:		1.2.2
 Tags:			revisions,maintenance
 Author:			azurecurve
 Author URI:		https://development.azurecurve.co.uk/
 Contributors:	azurecurve
 Plugin URI:		https://development.azurecurve.co.uk/classicpress-plugins/remove-revisions/
-Download link:	https://github.com/azurecurve/azrcrv-remove-revisions/releases/download/v1.2.1/azrcrv-remove-revisions.zip
+Download link:	https://github.com/azurecurve/azrcrv-remove-revisions/releases/download/v1.2.2/azrcrv-remove-revisions.zip
 Donate link:	https://development.azurecurve.co.uk/support-development/
 Requires PHP:	5.6
 Requires:		1.0.0
@@ -55,6 +55,10 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 == Changelog ==
 
 # Changelog
+
+### [Version 1.2.2](https://github.com/azurecurve/azrcrv-remove-revisions/releases/v1.2.2)
+ * Fix Update Manager View Details link (contributed by xxsimoxx).
+ * Fix bug with display of plugin action link.
 
 ### [Version 1.2.1](https://github.com/azurecurve/azrcrv-remove-revisions/releases/v1.2.1)
  * Fix missing constants.
